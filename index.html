@@ -72,11 +72,23 @@ I was born in the Sao paulo, Brazil and I currently live in Boston.
      <div class="col-m-12">
       <p>Sao Paulo - Brazil</p>
     <div id="googleMap2" style="width:500px;height:380px; " ></div>
+     <script>
+// Initialize and add the map
+function initMap() {
+  // The location of Uluru
+  var uluru = {lat: -23.5557062, lng: --46.6437391};
+  // The map, centered at Uluru
+  var map = new google.maps.Map(
+      document.getElementById('map'), {zoom: 11, center: uluru});
+  // The marker, positioned at Uluru
+  var marker = new google.maps.Marker({position: uluru, map: map});
+}
+    </script>
   </div>
      <div class="col-m-2">
        <p>Boston, Ma - United States</p>
-       <div id="googleMap" style="width:500px;height:380px;" ></div>
-     </div>
+       
+    
             <div id="map"></div>
     <script>
 // Initialize and add the map
@@ -93,20 +105,8 @@ function initMap() {
          <script async defer
     src="https://maps.googleapis.com/maps/api/js?key=AIzaSyARcvLdGBRNgRGN72Kv6YJOB4ucoLN-TS8&callback=initMap">
     </script>
-        
-    <div id="map"></div>
-     <script>
-// Initialize and add the map
-function initMap() {
-  // The location of Uluru
-  var uluru = {lat: -23.5557062, lng: --46.6437391};
-  // The map, centered at Uluru
-  var map = new google.maps.Map(
-      document.getElementById('map'), {zoom: 11, center: uluru});
-  // The marker, positioned at Uluru
-  var marker = new google.maps.Marker({position: uluru, map: map});
-}
-    </script>
+         </div>
+  
         
 
          <script async defer
