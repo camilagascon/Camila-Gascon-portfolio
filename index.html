@@ -23,6 +23,19 @@
 
   <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyARcvLdGBRNgRGN72Kv6YJOB4ucoLN-TS8&callback=initMap"
   type="text/javascript"></script>
+<script>
+  function initMap() {
+  }
+</script>
+{
+  var uluru = {lat: 42.356623, lng: -71.0817922};
+
+  var map = new google.maps.Map(document.getElementById('map'), {
+    zoom: 4,
+    center: uluru
+  });
+
+}
 
     <script>
 function initialize() {
