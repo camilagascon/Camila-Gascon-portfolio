@@ -7,7 +7,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
-    <title>Camila Gascon, designer</title>
+    <title>Camila Gascon</title>
 
     <!-- Bootstrap core CSS -->
     <link href="bootstrap.min.css" rel="stylesheet">
@@ -20,16 +20,7 @@
     <!-- Just for debugging purposes. Don't actually copy these 2 lines! -->
     <!--[if lt IE 9]><script src="../../assets/js/ie8-responsive-file-warning.js"></script><![endif]-->
     <script src="bootstrap.min.js"></script>
-
-    <style>
-      /* Set the size of the div element that contains the map */
-      #map {
-        height: 400px;  /* The height is 400 pixels */
-        width: 50%;  /* The width is the width of the web page */
-       }
-    </style>
-
-
+    <script src="https://maps.googleapis.com/maps/api/js"></script>
 
 
 
@@ -41,85 +32,38 @@
   </head>
   <body>
     <!-- Collect the nav links, forms, and other content for toggling -->
-<!  <nav class="navbar navbar-default navbar-fixed-top">
+<!--  <nav class="navbar navbar-default navbar-fixed-top"> -->
 <!-- Brand and toggle get grouped for better mobile display -->
- <div class="navbar-header">
-<button class="btn3 btn-link" role="link" type="submit" name="op" value="Link 2"></button>
-</div>
 <!-- /.navbar-collapse -->
-<! </nav>
+ <!-- </nav> -->
 <div class="jumbotron">
   <div class="jumbotron2">
-  <h1 style="text-align:center; font-weight:lighter ">My name is Camila Gascon, I'm a designer.</br></h1>
-  <h2 style= " text-align:center; font-weight:lighter" > Here you can learn more about me and the work I did. </h2>
+  <h1 style="text-align:left; font-weight:bold; ">oi luis Hello, I'm Camila</br></h1>
+  <h2 style= " text-align:left; font-weight:lighter" >I'm a designer born Brazil, curently living in Boston. </br></h2>
+   <h2 style= " text-align:left; font-weight:lighter" >Passionate about practicing design that can solve the fundamental issues in people’s lives. </h2>
   </div>
 </div>
 <div class="jumbotron">
   <div class="jumbotron3">
 
-   <h1 style= "font-weight:lighter"  >About me</h1>
+   <h1 style= "font-weight:lighter"  > Title</h1>
    <div class="row">
 
      <div class="col-l-3">
-<h3 > I’m learning about user experience design and how to code. <br>
-I enjoy creating products based on observing human behaviour, <br>
-and I'm inspired by technology that empowers people and bring them autonomy.  <br>
-I was born in the Sao paulo, Brazil and I currently live in Boston. 
+<h3 >  Text Text<br>
+ <br>
+  <br>
 </h3>
 </div>
 
-      <div class="row">
-     <div class="col-m-12">
-      <p>Boston, Ma - United States</p>
-    <div id="map"></div>
   
-     <script>
-// Initialize and add the map
-function initMap() {
-  // The location of Uluru
-  var uluru = {lat: -23.5557062, lng: 46.6437391};
-  // The map, centered at Uluru
-  var map = new google.maps.Map(
-      document.getElementById('map'), {zoom: 4, center: uluru});
-  // The marker, positioned at Uluru
-  var marker = new google.maps.Marker({position: uluru, map: map});
-}
-    </script>
-        <script async defer
-    src="https://maps.googleapis.com/maps/api/js?key=AIzaSyARcvLdGBRNgRGN72Kv6YJOB4ucoLN-TS8&callback=initMap">
-    </script>
-         
-        </div>
-  </div>
-     <div class="col-m-2">
-       <p>Sao Paulo - Brazil</p>
-       <div id="map2"></div>
-    <script>
-// Initialize and add the map
-function initMap() {
-  // The location of Uluru
-  var uluru = {lat: 42.3566235, lng: -71.0817922};
-  // The map, centered at Uluru
-  var map = new google.maps.Map(
-      document.getElementById('map2'), {zoom: 11, center: uluru});
-  // The marker, positioned at Uluru
-  var marker = new google.maps.Marker({position: uluru, map: map});
-}
-    </script>
-          <script async defer
-    src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBgBuHy_SGaOvBCAklZhCKh-BS1W-VsIto&callback=initMap">
-       </script>
-  
-       
-       
-   </div>
   </div>
 
     
   </div>
 
 </div>
-</div>
+
 </div>
 
 <nav class="navbar navbar-default navbar-fixed-bottom">
