@@ -1,8 +1,7 @@
 body {
   margin: 5px;
   margin-top: 100px;
-  background-color: #FCF8F3
-  ;
+  background-color: rgb(252, 248, 243);
   font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Helvetica,Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol";
 }
 .nav{
@@ -48,7 +47,7 @@ body {
   align-content: center;
 }
 .jumbotron{
-  background: #FCF8F3;
+  background:rgb(252, 248, 243);
     padding: 0px;
     font-weight:light 
    min-height: 400px;
@@ -91,7 +90,7 @@ body {
 
 .container{
 vertical-align: baseline;
-background: #FCF8F3;
+background: rgb(252, 248, 243);
 }
 .row li {
   width: 33.3%;
