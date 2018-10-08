@@ -91,6 +91,7 @@ body {
 
 .container{
 vertical-align: baseline;
+background: #FCF8F3;
 }
 .row li {
   width: 33.3%;
